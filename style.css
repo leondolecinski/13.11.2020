@@ -1,0 +1,72 @@
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+  }
+  body{
+      background-color: rgb(70, 26, 26);
+  }
+  .zd3{
+      width:100%;
+      height:320px ;
+  }
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .item1 {
+    grid-column: 1/ span 4 ;
+    grid-row: 1/ span 3;
+    background-color: rgb(253, 246, 234);
+  }
+  .item2 {
+    grid-column: 1 / span 4;
+    grid-row: 4/ span 5;
+    background-color: rgb(70, 26, 26);
+  }
+  .item3 {
+    grid-column: 1 / span 4;
+    grid-row: 8/ span 15;
+    background-color: rgb(70, 26, 26);
+  }
+  .item4 {
+    grid-column: 1/ span 3 ;
+    grid-row: 23/ span 30;
+    color: rgb(253, 246, 234) ;
+  }
+  .item5 {
+      grid-column: 4;
+      grid-row: 23/ span 30;
+      background-color: rgb(253, 246, 234) ;
+  }
+  .napis {
+      color: cornsilk;
+  }
+  .na{
+      color: rgb(70, 26, 26);
+  }
+  .na1 {
+      font-size: 25px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .zd{
+      width: 300px;
+      height: 300px;
+  }
+  .item6 {
+      grid-column: 1 / span 4;
+      background-color: rgb(253, 246, 234);
+  }
+  .item7 {
+      grid-column: 1 / span 4;
+      grid-row: 55 / span 55;
+  }
+  .na3{
+      font-size: 20px;
+      text-align: left;
+  }
+  .item8{
+    grid-column:1 / span 4 ;
+    grid-row: 95 / span 10;
+    background-color: darkorange;
+  }
